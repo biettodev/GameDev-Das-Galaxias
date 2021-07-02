@@ -16,40 +16,52 @@
 	<link rel="stylesheet" href="./public/css/globals.css">
 	<link rel="stylesheet" href=".//public/css/styles.css">
 	<link rel="stylesheet" href="./public/css/home.css">
-</head>
+</head> 
 <body>
 	<header>
-		<nav id="navigation">
+		<nav id="navigation" style="color:white">
 			<h1>GameDev Das Galáxias</h1>
-			<ul class="nav nav-pills">
+			<ul class="nav nav-pills fs-5">
 			  <li class="nav-item">
-				<a class="nav-link" aria-current="page" href="#about">Sobre</a>
-			  </li>
+				<a class="nav-link text-light fw-bold" href="# about">Sobre</a>
+			  </li> 
 			  <li class="nav-item">
-				<a class="nav-link " href="#contact">Contato</a>
+				<a  class="nav-link text-light fw-bold" href="#contact">Contato</a>
+			  </li >
+		 	  <li  class="nav-item">
+		 		 <a class="nav-link active fw-bold" style="background-color:#07E061" href=  "./pages/education-page.html" tabindex="-1">Educação</a>
 			  </li>
-			  <li class="nav-item">
-				<a class="nav-link active" href="./pages/education-page.html" tabindex="-1">Educação</a>
-			  </li>
-			</ul>
-		</nav>
-	</header>
-	<main>
+			</ul> 
+		</nav > 
+	</header > 
+	<main>  
 		<section id="about">
-			<h2>Sobre</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis ac neque eu lobortis. Proin sodales sem eget elit gravida, nec maximus ante rutrum. Fusce a nulla dapibus, porttitor nibh nec, egestas nisl. Donec id interdum neque. Sed lacus sapien, maximus nec lectus vel, consequat porttitor urna. Suspendisse id faucibus sapien, ac efficitur purus. Donec laoreet, purus vel accumsan scelerisque, diam diam elementum dui, ac pellentesque ante ante nec sem. Quisque varius dui quis magna varius pellentesque. Maecenas ut consequat magna. Suspendisse quis consectetur tortor. Vestibulum porttitor feugiat tristique. Morbi blandit ut libero vestibulum sollicitudin. Suspendisse potenti. Morbi molestie quam urna, ac viverra ante mollis ut. Maecenas dictum maximus metus eu finibus.
-			</p>
-		</section>
-		<section id="contact">
+			 <h2>Sobre</h2>
+			<p class="fs-5">
+				  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis ac neque eu   lobortis. Proin sodales sem eget elit gravida, nec maximus ante rutrum. Fusce a nulla   dapibus, porttitor nibh nec, egestas nisl. Donec id interdum neque. Sed lacus sapien,   maximus nec lectus vel, consequat porttitor urna. Suspendisse id faucibus sapien, ac   efficitur purus. Donec laoreet, purus vel accumsan scelerisque, diam diam elementum   dui, ac pellentesque ante ante nec sem. Quisque varius dui quis magna varius   pellentesque. Maecenas ut consequat magna. Suspendisse quis consectetur tortor.   Vestibulum porttitor feugiat tristique. Morbi blandit ut libero vestibulum   sollicitudin. Suspendisse potenti. Morbi molestie quam urna, ac viverra ante mollis u t.  Maecenas dictum maximus metus eu finibus.
+			</p>  
+		</section > 
+		<section id= "contact">
 			<h2>Contato</h2>
-			<form>
-				
-			</form>
-		</section>
-	</main>
-	<footer>
+			<form>  
+				<fieldset> 
+					 <div class ="mb-3">
+					   <label for="exampleFormControlInput1" class="form-label">Endereço de email</label>
+					   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder ="na me@example.com">
+					</div> 
+					<div  class="mb-3">
+					  <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+					  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div >
+					<div class="d-grid gap-2">
+					   <input type="submit" class="btn btn-primary btn-outline-light" style="backg  round-color:#07E061 ">
+		 			</div>
+		 		</fieldset>
+		 	</form> 
+		 </section> 
+	</main> 
+	<footer> 
 		<p>@Copyright</p> 
 	</footer>
-</body>
+</body> 
 </html>
