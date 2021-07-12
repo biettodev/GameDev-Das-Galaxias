@@ -4,7 +4,12 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title>Educação</title>
+
+	<!-- google fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&display=swap" rel="stylesheet">
 	
 	<!-- boostrap -->
@@ -19,7 +24,7 @@
 </head>
 <body>
 	<header>
-		<nav id="navigation" style="color:white">
+		<nav id="navigation" class="dark">
 	 		<h1>GameDev Das Galáxias</h1>
 	 		<ul class="nav nav-pills fs-5">
 	 		  <li class="nav-item">
@@ -29,7 +34,7 @@
 	 			<a class="nav-link text-light fw-bold" href="../index.html#contact">Contato</a>
 	 		  </li>
 	 		  <li class="nav-item">
-	 			<a class="nav-link active fw-bold" style="background-color:#07E061" href= "./education-page.html" tabindex="-1">Educação</a>
+	 			<a class="nav-link active fw-bold" style="background-color:#07E061;" href= "./education-page.html" tabindex="-1">Educação</a>
 			  </li>
 			</ul> 
 		</nav> 
@@ -38,32 +43,32 @@
 	<main class="mx-auto text-center"> 
 		<section id="tutorials">
 			 <h2>Dicas</h2>
-			<div class="card" style="width: 18rem">
-				<img src="../public/assets/bg.png">
+			<div class="card shadow-sm" style="width: 24rem">
+				<img src="../public/assets/github.png">
 				<div class="card-body">
 					 <h5 class="card-title">Repositórios</h5>
 					<p class="card-text">Texto</p>
-					<a href="./education/repositories-page.html" class="btn btn-primary btn-outline-light" style="background-color:#07E061">
+					<a href="./education/repositories-page.html" class="btn btn-primary btn-outline-light primary">
 						Link <i class="bi bi-arrow-right-square-fill"></i>
 					</a>
 				</div>
 			</div>
-			<div class="card" style="width: 18rem">
-				<img src="../public/assets/bg.png">
+			<div class="card shadow-sm" style="width: 24rem">
+				<img src="../public/assets/gdlk.png">
 				<div class="card-body">
 					 <h5 class="card-title">GDLK</h5>
 					<p class="card-text">Texto</p>
-					<a href="./education/repositories-page.html" class="btn btn-primary btn-outline-light" style="background-color:#07E061">
+					<a href="./education/gdlk-page.html" class="btn btn-primary btn-outline-light primary">
 						Link <i class="bi bi-arrow-right-square-fill"></i>
 					</a>
 				</div>
 			</div>
-			<div class="card" style="width: 18rem">
-				<img src="../public/assets/bg.png">
+			<div class="card shadow-sm" style="width: 24rem">
+				<img src="../public/assets/channels.png">
 				<div class="card-body">
 					 <h5 class="card-title">Vídeos e Canais</h5>
 					<p class="card-text">Texto</p>
-					<a href="./education/repositories-page.html" class="btn btn-primary btn-outline-light" style="background-color:#07E061">
+					<a href="./education/channels-page.html" class="btn btn-primary btn-outline-light primary">
 						Link <i class="bi bi-arrow-right-square-fill"></i>
 					</a>
 				</div>
@@ -72,10 +77,32 @@
 		
 		<section id="tips">
 			<h2>Tutoriais</h2>
+			<p>Em breve</p>
 		</section>
 	</main>
-	<footer>
-		
+	<footer class="dark text-center">
+		<div class="container p-5">
+			<div class="row">
+				<div class="col-sm border p-3 channel">
+					<a class="link" href="https://bit.ly/2UChCYO"> 
+						<span class="material-icons" style="font-size: 3.2rem;">article</span>
+						<p class="fs-4">Conteúdos</p>
+					</a>
+				</div>
+				<div class="col-sm border p-3 channel">
+					<a class="link" href="https://bit.ly/3k7dniE"> 
+						<span class="material-icons" style="font-size: 3.2rem;">group</span>
+						<p class="fs-4">Comunidade</p>
+					</a>
+				</div>
+				<div class="col-sm border p-3 channel">
+					<a class="link" href="https://bit.ly/3kastUH"> 
+						<span class="material-icons" style="font-size: 3.2rem;">gamepad</span>
+						<p class="fs-4">Jogos</p>
+					</a>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

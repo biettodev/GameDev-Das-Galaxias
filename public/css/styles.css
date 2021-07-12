@@ -1,21 +1,28 @@
-#navigation{
+#navigation {
 	width: 100%;
 	padding: 10px;
-	background-color: black;
-	position: fixed;
 	display: flex;
 	justify-content: space-between;
 }
 
-#navigation #menu{
+#navigation #menu {
 	display: inline-flex;
 }
 
-#navigation #menu li{
+#navigation #menu li {
 	list-style: none;
 }
 
-#navigation #menu li a{
+#navigation #menu li a {
 	margin: 5px;
 	font-size: 1.5rem;
+}
+
+footer .link {
+	color: white;
+}
+
+footer .channel:hover {
+	background-color: #07E061;
+	color: white;
 }
