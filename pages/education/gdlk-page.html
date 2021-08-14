@@ -41,25 +41,42 @@
 
 <body>
 	<header>
-		<nav id="navigation" class="dark">
-			<h1>GameDev Das Galáxias</h1>
-			<ul class="nav nav-pills fs-5">
-				<li class="nav-item">
-					<a class="nav-link text-light fw-bold" href="../../index.html#about">Sobre</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-light fw-bold" href="../../index.html#contact">Contato</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link active fw-bold" style="background-color:#07E061" href="../education-page.html"
-						tabindex="-1">Educação</a>
-				</li>
-			</ul>
-		</nav>
+		<div class="row justify-content-between dark p-2">
+			<h1 class="col-5">GameDev Das Galáxias</h1>
+			<nav class="col-4">
+				<ul class="nav nav-pills fs-5">
+					<li class="nav-item">
+						<a class="nav-link text-light fw-bold" href="../../index.html#about">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light fw-bold" href="../../index.html#contact">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active fw-bold" style="background-color:#07E061"
+							href="../education-page.html" tabindex="-1">Educação</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	<!-- <img src="../../public/assets/bg.jpg" class="img-fluid" alt="Imagem responsiva"> -->
+	<img src="../../public/assets/bg.jpg" class="img-fluid" alt="Imagem responsiva">
 	<main class="m-5">
-		<h2>EM BREVE</h2>
+		<div id="list-example" class="list-group">
+			<a class="list-group-item list-group-item-action" href="#list-item-1">Episódio 1</a>
+			<a class="list-group-item list-group-item-action" href="#list-item-2">Episódio 2</a>
+			<a class="list-group-item list-group-item-action" href="#list-item-3">Episódio 3</a>
+			<a class="list-group-item list-group-item-action" href="#list-item-4">Episódio 4</a>
+			<a class="list-group-item list-group-item-action" href="#list-item-5">Episódio 5</a>
+			<a class="list-group-item list-group-item-action" href="#list-item-6">Episódio 6</a>
+		</div>
+		<div class="my-5" data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+			
+			<img id="list-item-1" src="../../public/assets/ep1.png" class="rounded mx-auto d-block img-thumbnail" alt="...">
+			<img id="list-item-2" src="../../public/assets/ep2.png" class="rounded mx-auto d-block img-thumbnail" alt="...">
+			<img id="list-item-3" src="../../public/assets/ep3.png" class="rounded mx-auto d-block img-thumbnail" alt="...">
+			<img id="list-item-4" src="../../public/assets/ep4.png" class="rounded mx-auto d-block img-thumbnail" alt="...">
+			<img id="list-item-5" src="../../public/assets/ep5.png" class="rounded mx-auto d-block img-thumbnail" alt="...">
+			<img id="list-item-6" src="../../public/assets/ep6.png" class="rounded mx-auto d-block img-thumbnail" alt="...">
 	</main>
 	<footer class="dark text-center">
 		<div class="container p-5">
