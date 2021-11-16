@@ -1,8 +1,12 @@
+aside {
+    display: flex;
+}
+
 footer .link {
-	color: white;
+    color: white;
 }
 
 footer .channel:hover {
-	background-color: #07E061;
-	color: white;
+    background-color: #07E061;
+    color: white;
 }
