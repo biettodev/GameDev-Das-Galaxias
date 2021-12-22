@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@700&display=swap');
+:root {
+    --primary-color: #07E061;
+    --secundary-color: #8E1DE0;
+    --dark-purple: #580494;
+    --dark-green: #0C9445;
+    --contrast: #E0A134;
+    --dark-grey: #424242;
+}
+
 .dark {
     color: white;
     background-color: rgb(20, 20, 20);
 }
 
 .primary {
-    background-color: #07E061;
+    background-color: var(--primary-color);
 }
 
 * {
@@ -24,10 +33,14 @@ h5 {
 
 a {
     text-decoration: none;
-    /* color: white; */
 }
 
 p,
 a {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+b {
+    color: var(--dark-purple);
 }
