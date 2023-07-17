@@ -8,10 +8,6 @@
     --dark-grey: #424242;
 }
 
-body {
-    background: url("../assets/moon.jpg");
-}
-
 .dark {
     color: white;
     background-color: rgb(20, 20, 20);
