@@ -10,3 +10,7 @@ footer .channel:hover {
     background-color: #07E061;
     color: white;
 }
+
+section#about {
+    background-image: url("../assets/sky.jpg");
+}
