@@ -8,9 +8,20 @@
     --dark-grey: #424242;
 }
 
+body {
+    background: url("../assets/moon.jpg");
+}
+
 .dark {
     color: white;
+    border-radius: 0.5rem;
     background-color: rgb(20, 20, 20);
+}
+
+.transparent{
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgb(20, 20, 20, .3);
 }
 
 .primary {
@@ -36,7 +47,7 @@ h5 {
 }
 
 a {
-    color: var(--dark-purple);
+    color: var(--primary-color);
 }
 
 p,

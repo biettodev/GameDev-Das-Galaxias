@@ -12,5 +12,18 @@ footer .channel:hover {
 }
 
 section#about {
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
     background-image: url("../assets/sky.jpg");
+}
+
+h2.left{
+    margin-bottom: 2rem;
+    text-align: left;
+    border: 1px solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: white;
 }
